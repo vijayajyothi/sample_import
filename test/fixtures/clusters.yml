@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  vcserver: MyString
+  cluster: MyString
+  totalcpu: MyString
+  totalmemory: MyString
+  numcpucores: MyString
+
+two:
+  vcserver: MyString
+  cluster: MyString
+  totalcpu: MyString
+  totalmemory: MyString
+  numcpucores: MyString

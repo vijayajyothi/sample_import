@@ -1,0 +1,35 @@
+<h1>Listing clusters</h1>
+
+<table>
+  <tr>
+    <th>Vcserver</th>
+    <th>Cluster</th>
+    <th>Totalcpu</th>
+    <th>Totalmemory</th>
+    <th>Numcpucores</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @clusters.each do |cluster| %>
+  <tr>
+    <td><%= cluster.vcserver %></td>
+    <td><%= cluster.cluster %></td>
+    <td><%= cluster.totalcpu %></td>
+    <td><%= cluster.totalmemory %></td>
+    <td><%= cluster.numcpucores %></td>
+    <td><%= link_to 'Show', cluster %></td>
+    <td><%= link_to 'Edit', edit_cluster_path(cluster) %></td>
+    <td><%= link_to 'Destroy', cluster, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+<h2>Import Products</h2>
+<%= form_tag import_clusters_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>
+<%= link_to 'New Cluster', new_cluster_path %>

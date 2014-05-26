@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Vcserver:</b>
+  <%= @cluster.vcserver %>
+</p>
+
+<p>
+  <b>Cluster:</b>
+  <%= @cluster.cluster %>
+</p>
+
+<p>
+  <b>Totalcpu:</b>
+  <%= @cluster.totalcpu %>
+</p>
+
+<p>
+  <b>Totalmemory:</b>
+  <%= @cluster.totalmemory %>
+</p>
+
+<p>
+  <b>Numcpucores:</b>
+  <%= @cluster.numcpucores %>
+</p>
+
+
+<%= link_to 'Edit', edit_cluster_path(@cluster) %> |
+<%= link_to 'Back', clusters_path %>
