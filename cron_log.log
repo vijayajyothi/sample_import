@@ -1,0 +1,14 @@
+
+"each attribute"
+nil
+nil
+nil
+"abouve r printed attributes"
+rake aborted!
+NoMethodError: undefined method `find_or_intialize_by_id' for #<Class:0x000000042fc1d8>
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activerecord-3.2.16/lib/active_record/dynamic_matchers.rb:55:in `method_missing'
+/home/workspace/sample2/lib/tasks/data.rake:16:in `block (3 levels) in <top (required)>'
+/home/workspace/sample2/lib/tasks/data.rake:5:in `each'
+/home/workspace/sample2/lib/tasks/data.rake:5:in `block (2 levels) in <top (required)>'
+Tasks: TOP => data:import
+(See full trace by running task with --trace)
