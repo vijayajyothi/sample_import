@@ -5,7 +5,7 @@ namespace :data do
     file = File.open("sample.csv")
     file.each do |line|
       attrs = line.split(":")
-      p = Product.find_or_initialize_by_identifier(attrs[0])
+      p = Product.find_or_initialize_by_id(attrs[0])
       p.vcserver = attrs[1]
       p.save!
     end
