@@ -12,3 +12,491 @@ NoMethodError: undefined method `find_or_intialize_by_id' for #<Class:0x00000004
 /home/workspace/sample2/lib/tasks/data.rake:5:in `block (2 levels) in <top (required)>'
 Tasks: TOP => data:import
 (See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting '}'
+      :vcserver => row[1]
+                  ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+rake aborted!
+SyntaxError: /home/workspace/sample2/lib/tasks/data.rake:12: syntax error, unexpected =>, expecting '}'
+:vcserver => row[1],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:13: syntax error, unexpected =>, expecting :: or '[' or '.'
+:cluster => row[2],
+           ^
+/home/workspace/sample2/lib/tasks/data.rake:14: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalcpu => row[3],
+            ^
+/home/workspace/sample2/lib/tasks/data.rake:15: syntax error, unexpected =>, expecting :: or '[' or '.'
+:totalmemory => row[4],
+               ^
+/home/workspace/sample2/lib/tasks/data.rake:16: syntax error, unexpected =>, expecting :: or '[' or '.'
+:numcpucores => row[5]
+               ^
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `block in load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/activesupport-3.2.16/lib/active_support/dependencies.rb:245:in `load'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `block in load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `each'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/engine.rb:425:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/application.rb:145:in `load_tasks'
+/usr/local/rvm/gems/ruby-2.1.1@rails320/gems/railties-3.2.16/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/home/workspace/sample2/Rakefile:7:in `<top (required)>'
+(See full trace by running task with --trace)
+"came to task"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"out"
+"came to task"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"in the csv do"
+"out"

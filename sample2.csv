@@ -1,0 +1,6 @@
+"vcserver","cluster","totalcpu","totalmemory","numcpucores"
+"vf-vcd-vc-01.vmware.com","vf-cat","70392","309216043008","24"
+"vf-vcd-vc-01.vmware.com","vf-dev1","254352","1082256150528","84"
+"vf-vcd-vc-01.vmware.com","vf-prod1","217560","927644557312","72"
+"vf-view-vc.vmware.com","vf-view1","70392","309216043008","24"
+"vf-mgmt-vc.vmware.com","vf-mgmt","63984","206135078912","24"
