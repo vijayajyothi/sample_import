@@ -21,9 +21,10 @@ set :output, "/home/workspace/sample2/cron_log.log"
 
 # Learn more: http://github.com/javan/whenever
 
-every :hour  do
-  rake "data:import"
-end
+# commenting this part of code for stopping the rake to run simply.. uncomment the three lines for rake task to schedulee again and update the cron
+#every :hour  do
+#  rake "data:import"
+#end
 
 # Run below line for updating cronjobs after updating this file.
 # whenever --update-crontab --set 'environment=development'

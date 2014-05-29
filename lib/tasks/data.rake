@@ -5,6 +5,6 @@ namespace :data do
        Cluster.create!(row.to_hash)
     end
 
-OpsMailer.test_email.deliver
+#OpsMailer.test_email.deliver
   end
 end 
